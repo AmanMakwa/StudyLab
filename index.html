@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study lab</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #heading{
+            /* border: 1px solid black; */
+            align-items: center;
+            display: flex;
+            height: 90px;
+           justify-content: space-around;
+           box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        .inside1{
+            /* border: 1px solid green; */
+           text-align: center;
+            width: 9%;
+            height: 93px;
+            font-size: 23px;
+            color: white;
+            background: linear-gradient(120deg,rgba(194, 53, 212, 0.753),rgb(0, 132, 255))
+         
+        }
+        .inside1>h2{
+            margin-top: 10%;
+        }
+        .inside2{
+            /* border: 1px solid red; */
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+         
+            
+        }
+        .inside2>div{
+            /* border: 1px solid blue; */
+            width: 13%;
+            text-align: center;
+            font-size: 20px;
+            
+           
+        }
+        #basic{
+                /* border: 1px solid black; */
+                height: 990px;
+                display: flex;
+                width: 95%;
+        }
+        #basic>.a{
+            /* border: 1px solid red; */
+            width: 50%;
+        }
+        .a>.x{
+            /* border: 1px solid blue; */
+            margin-top: 14%;
+            height: 905px;
+        }
+        .x>p{
+          margin-left: 5%;
+          font-size: 25px;
+          font-weight: 700;
+          color: rgb(62, 128, 226);
+        }
+        .x>h1{
+            font-size: 63px;
+            margin-left: 5%;
+            margin-top: 1%;
+        }
+        .x>h6{
+            font-size: 27px;
+            margin-left: 5%;
+            margin-top: 3%;
+            color: rgb(141, 135, 135);
+            font-weight: 400;
+            width: 85%;
+        }
+        .img{
+            /* border: 1px solid green; */
+            height: 190px;
+            margin-top: 9%;
+            display: flex;
+            width: 90%;
+            margin-left: 5%;
+        }
+        .img>div:nth-child(1){
+            /* border: 1px solid red; */
+            width: 25%;
+        }
+        .img1>img{
+            width: 100%;
+        }
+        .img2>h6{
+            font-size: 31px;
+            margin-left: 5%;
+            margin-top: 5%;
+            color: rgb(3, 3, 3);
+            font-weight: 500;
+            width: 80%;
+        }
+        #basic>.b{
+            /* border: 1px solid red; */
+            width: 50%;
+            display: grid;
+            height: 930px;
+            margin-top: 3%;
+        }
+        
+        .b{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+
+        }
+        .b>div{
+            /* border: 1px solid red; */
+            height: 430px;
+            width: 93%;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .img2>img{
+            width: 30%;
+            border-radius: 50%;
+            margin-top: 8%;
+            margin-left: 8%;
+        }
+        .img2>h2{
+            margin-left: 5%;
+            font-size: 30px;        
+        }
+        .img2>h6{
+            font-size: 27px;
+            margin-left: 5%;
+            margin-top: 5%;
+            color: rgb(141, 135, 135);
+            font-weight: 400;
+        }
+        .img3>img{
+            width: 30%;
+            border-radius: 50%;
+            margin-top: 8%;
+            margin-left: 8%;
+        }
+        .img3>h2{
+            margin-left: 5%;
+            font-size: 30px;        
+        }
+        .img3>h6{
+            font-size: 27px;
+            margin-left: 5%;
+            margin-top: 5%;
+            color: rgb(141, 135, 135);
+            font-weight: 400;
+        }
+        .img4>img{
+            width: 30%;
+            border-radius: 50%;
+            margin-top: 8%;
+            margin-left: 8%;
+        }
+        .img4>h2{
+            margin-left: 5%;
+            font-size: 30px;        
+        }
+        .img4>h6{
+            font-size: 27px;
+            margin-left: 5%;
+            margin-top: 5%;
+            color: rgb(141, 135, 135);
+            font-weight: 400;
+        }
+        .img5>img{
+            width: 30%;
+            border-radius: 50%;
+            margin-top: 8%;
+            margin-left: 8%;
+        }
+        .img5>h2{
+            margin-left: 5%;
+            font-size: 30px;        
+        }
+        .img5>h6{
+            font-size: 27px;
+            margin-left: 5%;
+            margin-top: 5%;
+            color: rgb(141, 135, 135);
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <div class="inside1">
+            <h2>StudyLab</h2>
+        </div>
+        <div class="inside2">
+            <div>
+                <h3>Home</h3>
+            </div>
+            <div>
+                <h3>About</h3>
+            </div>
+            <div>
+                <h3>Course</h3>
+            </div>
+            <div>
+                <h3>Instructor</h3>
+            </div>
+            <div>
+                <h3>Blog</h3>
+            </div>
+            <div>
+                <h3>contact</h3>
+            </div>
+        </div>
+    </div>
+    <div id="basic">
+        <div class="a">
+            <div class="x">
+                <p>WELCOME TO STUDYLAB</p>
+                <h1>We are StudyLab An online Learning center</h1>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolores ad, nam voluptatem nemo similique maiores cum ratione explicabo repellat provident eius cupiditate aut animi officiis. Blanditiis architecto fugit dolor.</h6>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis ducimus nulla, consequuntur, id nemo autem itaque ea sed suscipit earum vero alias ullam, aut maxime omnis quos dolor eos? Rem incidunt magni fuga rerum.</h6>
+                <div class="img">
+                    <div class="img1">
+                        <img class="img2" src="https://cdn.xxl.thumbs.canstockphoto.com/online-video-tutorials-education-button-in-laptop-notebook-computer-screen-play-lesson-concept-clipart-vector_csp49689155.jpg" alt=""></div>
+                    <div class="img2"><h6>Learn anything from StudyLab, Watch video</h6></div>
+                </div>
+            </div>
+        </div>
+        <div class="b">
+            <div class="img2">
+                <img src="https://img.freepik.com/free-vector/mail-line-icon-letter-envelope-pointer-addressee-sender-correspondence-letters-send-message-communication-concept-glassmorphism-style-vector-line-icon-business-advertising_661108-173.jpg?w=2000" alt="">
+                <h2>Top quality content</h2>
+                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, ut.</h6>
+            </div>
+            <div class="img3">
+                <img src="https://img.freepik.com/free-vector/mail-line-icon-letter-envelope-pointer-addressee-sender-correspondence-letters-send-message-communication-concept-glassmorphism-style-vector-line-icon-business-advertising_661108-173.jpg?w=2000" alt="">
+                <h2>Top quality content</h2>
+                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, ut.</h6>
+            </div>
+            <div class="img4">
+                <img src="https://img.freepik.com/free-vector/mail-line-icon-letter-envelope-pointer-addressee-sender-correspondence-letters-send-message-communication-concept-glassmorphism-style-vector-line-icon-business-advertising_661108-173.jpg?w=2000" alt="">
+                <h2>Top quality content</h2>
+                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, ut.</h6>
+            </div>
+            <div class="img5">
+                <img src="https://img.freepik.com/free-vector/mail-line-icon-letter-envelope-pointer-addressee-sender-correspondence-letters-send-message-communication-concept-glassmorphism-style-vector-line-icon-business-advertising_661108-173.jpg?w=2000" alt="">
+                <h2>Top quality content</h2>
+                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, ut.</h6>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
